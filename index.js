@@ -42,11 +42,11 @@ function normalizePhoneForPairing(input) {
 
 const { say } = cfonts
 console.log(chalk.magentaBright('\n❀ Iniciando...'))
-  say('Yuki Suou', {
+  say('WillZek Studio', {
   align: 'center',           
   gradient: ['red', 'blue'] 
 })
-  say('Made with love by Destroy', {
+  say('Made with love by WillZek Dev', {
   font: 'console',
   align: 'center',
   gradient: ['blue', 'magenta']
