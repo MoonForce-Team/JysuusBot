@@ -7,16 +7,16 @@ global.botNumber = ''
 
 global.sessionName = 'Sessions/Owner'
 global.version = '^2.0 - Latest'
-global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜"
+global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Jysus27"
 global.links = {
 api: 'https://api.yuki-wabot.my.id',
-channel: "https://whatsapp.com/channel/0029Vb64nWqLo4hb8cuxe23n",
+channel: "https://whatsapp.com/channel/0029Vb79SSpDDmFPphUA3p1D",
 github: "https://github.com/iamDestroy/YukiBot-MD",
-gmail: "thekingdestroy507@gmail.com"
+gmail: "lala458h@gmail.com"
 }
 global.my = {
 ch: '120363401404146384@newsletter',
-name: 'ೃ࿔ ყµҡเ ωαɓσƭร - σƒƒเ૮เαℓ ૮ɦαɳɳεℓ .ೃ࿐',
+name: 'ೃ࿔ JysusBot Oficial Channel ࿐',
 }
 
 global.mess = {
