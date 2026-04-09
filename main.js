@@ -58,7 +58,7 @@ export default async (client, m) => {
   const rawBotname = settings.namebot || 'Jysus';
   const tipo = settings.type || 'Sub';
   const cleanBotname = rawBotname.replace(/[^a-zA-Z0-9\s]/g, '')
-  const namebot = cleanBotname || 'Yuki';
+  const namebot = cleanBotname || 'Jysuus';
   const shortForms = [namebot.charAt(0), namebot.split(" ")[0], tipo.split(" ")[0], namebot.split(" ")[0].slice(0, 2), namebot.split(" ")[0].slice(0, 3)];
   const prefixes = shortForms.map(name => `${name}`);
   prefixes.unshift(namebot);
