@@ -7,7 +7,7 @@ function initDB(m, client) {
   settings.self ??= false
   settings.prefix ??= ['/', '!', '.', '#']
   settings.commandsejecut ??= isNumber(settings.commandsejecut) ? settings.commandsejecut : 0
-  settings.id ??= '120363401404146384@newsletter'
+  settings.id ??= '120363410169834755@newsletter'
   settings.nameid ??= "'ೃ࿔ JysuusBot Oficial Channel .ೃ࿐"
   settings.type ??= 'Owner'
   settings.link ??= 'https://infostore.click'
