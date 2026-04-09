@@ -2,7 +2,7 @@ import fs from 'fs';
 import { watchFile, unwatchFile } from 'fs'
 import { fileURLToPath } from 'url'
 
-global.owner = ['573196588149', '5492916450307', '5216671548329', '573247662531', '51921826291', '50493732693']
+global.owner = ['50557865603']
 global.botNumber = ''
 
 global.sessionName = 'Sessions/Owner'
@@ -11,7 +11,7 @@ global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Jysus27"
 global.links = {
 api: 'https://api.yuki-wabot.my.id',
 channel: "https://whatsapp.com/channel/0029Vb79SSpDDmFPphUA3p1D",
-github: "https://github.com/iamDestroy/YukiBot-MD",
+github: "https://github.com/WillZek",
 gmail: "lala458h@gmail.com"
 }
 global.my = {
