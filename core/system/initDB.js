@@ -11,8 +11,8 @@ function initDB(m, client) {
   settings.nameid ??= "'ೃ࿔ JysuusBot Oficial Channel .ೃ࿐"
   settings.type ??= 'Owner'
   settings.link ??= 'https://infostore.click'
-  settings.banner ??= 'https://cdn.yuki-wabot.my.id/files/tCVD.jpeg'
-  settings.icon ??= 'https://cdn.yuki-wabot.my.id/files/PJDp.jpeg'
+  settings.banner ??= 'https://cdn.yuki-wabot.my.id/files/AStK.jpeg'
+  settings.icon ??= 'https://cdn.yuki-wabot.my.id/files/y2g3.jpeg'
   settings.currency ??= 'Yenes'
   settings.namebot ??= 'Jysus'
   settings.botname ??= 'Jysuus Bot'  
