@@ -55,7 +55,7 @@ export default async (client, m) => {
   if (!users.stats[today]) users.stats[today] = { msgs: 0, cmds: 0 };
   users.stats[today].msgs++;
   
-  const rawBotname = settings.namebot || 'Yuki';
+  const rawBotname = settings.namebot || 'Jysus';
   const tipo = settings.type || 'Sub';
   const cleanBotname = rawBotname.replace(/[^a-zA-Z0-9\s]/g, '')
   const namebot = cleanBotname || 'Yuki';
