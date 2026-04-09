@@ -15,7 +15,7 @@ github: "https://github.com/WillZek",
 gmail: "lala458h@gmail.com"
 }
 global.my = {
-ch: '120363401404146384@newsletter',
+ch: '120363410169834755@newsletter',
 name: 'ೃ࿔ JysusBot Oficial Channel ࿐',
 }
 
