@@ -1,5 +1,5 @@
 export default {
-  command: ['hidetag', 'tag'],
+  command: ['hidetag', 'tag', 'n'],
   category: 'grupo',
   isAdmin: true,
   run: async (client, m, args, usedPrefix, command) => {
@@ -32,29 +32,30 @@ export default {
 
       if (hasImage || hasVideo) {
         const media = await src.download()
-        const options = { quoted: null, mentions }
-
         let captionFinal = ''
 
         if (isQuoted) {
-          captionFinal = originalText ? originalText + firma : firma.trim()
+          captionFinal = originalText ? `${originalText}${firma}` : firma.trim()
         } else {
-          captionFinal = userText ? userText + firma : firma.trim()
+          captionFinal = userText ? `${userText}${firma}` : firma.trim()
         }
+
+        await client.sendMessage(m.chat, {
+          text: captionFinal,
+          mentions
+        }, { quoted: null })
 
         if (hasImage) {
           return client.sendMessage(m.chat, {
             image: media,
-            caption: captionFinal,
-            ...options
-          })
+            mentions
+          }, { quoted: null })
         } else {
           return client.sendMessage(m.chat, {
             video: media,
             mimetype: 'video/mp4',
-            caption: captionFinal,
-            ...options
-          })
+            mentions
+          }, { quoted: null })
         }
       }
 
@@ -78,14 +79,14 @@ export default {
 
       if (isQuoted && originalText) {
         return client.sendMessage(m.chat, {
-          text: originalText + firma,
+          text: `${originalText}${firma}`,
           mentions
         }, { quoted: null })
       }
 
       if (userText) {
         return client.sendMessage(m.chat, {
-          text: userText + firma,
+          text: `${userText}${firma}`,
           mentions
         }, { quoted: null })
       }
