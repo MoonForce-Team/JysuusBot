@@ -16,9 +16,10 @@ export default {
     const fecha = new Date().toLocaleDateString('es-ES', {
       day: '2-digit',
       month: 'long'
-    }).toUpperCase()
+    })
 
-    const firma = `\n\nJYSUSS BOT 🥷 | ${fecha}`
+    // 🔥 FIRMA CORREGIDA (con > estilo cita)
+    const firma = `\n> Jysuys Bot 🥷 | ${fecha}`
 
     const hasImage = Boolean(src.message?.imageMessage || src.mtype === 'imageMessage')
     const hasVideo = Boolean(src.message?.videoMessage || src.mtype === 'videoMessage')
@@ -37,9 +38,9 @@ export default {
         let captionFinal = ''
 
         if (isQuoted) {
-          captionFinal = originalText ? originalText + firma : firma
+          captionFinal = originalText ? originalText + firma : firma.trim()
         } else {
-          captionFinal = userText ? userText + firma : firma
+          captionFinal = userText ? userText + firma : firma.trim()
         }
 
         if (hasImage) {
