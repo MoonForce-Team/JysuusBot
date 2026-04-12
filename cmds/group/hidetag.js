@@ -18,7 +18,6 @@ export default {
       month: 'long'
     })
 
-    // 🔥 FIRMA CORREGIDA (con > estilo cita)
     const firma = `\n> Jysuys Bot 🥷 | ${fecha}`
 
     const hasImage = Boolean(src.message?.imageMessage || src.mtype === 'imageMessage')
